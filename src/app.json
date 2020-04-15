@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/movies/main",
+    "pages/index/main",
+    "pages/list/main",
+    "pages/listDetail/main",
+    "pages/movieDetail/main"
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "window": {
+    "navigationBarBackgroundColor": "#489b81",
+    "navigationBarTitleText": "微信接口功能演示"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [{
+        "pagePath": "pages/list/main",
+        "text": "文章",
+        "iconPath": "/static/tabs/article.png",
+        "selectedIconPath": "/static/tabs/article-active.png"
+      },
+      {
+        "pagePath": "pages/movies/main",
+        "text": "电影",
+        "iconPath": "/static/tabs/movie.png",
+        "selectedIconPath": "/static/tabs/movie-active.png"
+      }
+    ]
+  }
+}
